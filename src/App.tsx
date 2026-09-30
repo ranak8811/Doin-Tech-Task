@@ -9,14 +9,17 @@ import { CreatorBanner } from './components/creator/CreatorBanner';
 import { CommunityTestimonials } from './components/community/CommunityTestimonials';
 import { Footer } from './components/footer/Footer';
 import { Signup } from './components/auth/Signup';
+import { Signin } from './components/auth/Signin';
 
 export function App() {
-  const [currentView, setCurrentView] = useState<'home' | 'signup'>('home');
+  const [currentView, setCurrentView] = useState<'home' | 'signup' | 'signin'>('home');
 
   useEffect(() => {
     const handleHash = () => {
       if (window.location.hash === '#signup') {
         setCurrentView('signup');
+      } else if (window.location.hash === '#signin') {
+        setCurrentView('signin');
       } else {
         setCurrentView('home');
       }
@@ -33,6 +36,25 @@ export function App() {
         onNavigateHome={() => {
           window.location.hash = '';
           setCurrentView('home');
+        }}
+        onNavigateLogin={() => {
+          window.location.hash = '#signin';
+          setCurrentView('signin');
+        }}
+      />
+    );
+  }
+
+  if (currentView === 'signin') {
+    return (
+      <Signin
+        onNavigateHome={() => {
+          window.location.hash = '';
+          setCurrentView('home');
+        }}
+        onNavigateSignup={() => {
+          window.location.hash = '#signup';
+          setCurrentView('signup');
         }}
       />
     );
