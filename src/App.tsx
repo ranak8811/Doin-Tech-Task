@@ -6,6 +6,7 @@ import { ExplorePaths } from './components/paths/ExplorePaths';
 import { GrowthAndCreator } from './components/growth/GrowthAndCreator';
 import { CreatorBanner } from './components/creator/CreatorBanner';
 import { CommunityTestimonials } from './components/community/CommunityTestimonials';
+import { Footer } from './components/footer/Footer';
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
       <GrowthAndCreator />
       <CreatorBanner />
       <CommunityTestimonials />
+      <Footer />
     </div>
   );
 }
