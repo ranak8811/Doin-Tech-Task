@@ -5,6 +5,7 @@ import { DiscoverCourses } from './components/courses/DiscoverCourses';
 import { ExplorePaths } from './components/paths/ExplorePaths';
 import { GrowthAndCreator } from './components/growth/GrowthAndCreator';
 import { CreatorBanner } from './components/creator/CreatorBanner';
+import { CommunityTestimonials } from './components/community/CommunityTestimonials';
 
 export function App() {
   return (
@@ -19,6 +20,7 @@ export function App() {
       <ExplorePaths />
       <GrowthAndCreator />
       <CreatorBanner />
+      <CommunityTestimonials />
     </div>
   );
 }
