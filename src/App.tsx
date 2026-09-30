@@ -3,6 +3,7 @@ import { HeroBanner } from './components/hero/HeroBanner';
 import { PartnerLogos } from './components/partners/PartnerLogos';
 import { DiscoverCourses } from './components/courses/DiscoverCourses';
 import { ExplorePaths } from './components/paths/ExplorePaths';
+import { GrowthAndCreator } from './components/growth/GrowthAndCreator';
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
       <PartnerLogos />
       <DiscoverCourses />
       <ExplorePaths />
+      <GrowthAndCreator />
     </div>
   );
 }
