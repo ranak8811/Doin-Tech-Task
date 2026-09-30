@@ -2,6 +2,7 @@ import { Navbar } from './components/navbar/Navbar';
 import { HeroBanner } from './components/hero/HeroBanner';
 import { PartnerLogos } from './components/partners/PartnerLogos';
 import { DiscoverCourses } from './components/courses/DiscoverCourses';
+import { ExplorePaths } from './components/paths/ExplorePaths';
 
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
 
       <PartnerLogos />
       <DiscoverCourses />
+      <ExplorePaths />
     </div>
   );
 }
