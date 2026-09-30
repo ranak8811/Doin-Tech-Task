@@ -111,7 +111,7 @@ export const DiscoverCourses = () => {
   const [activeCategory, setActiveCategory] = useState('Featured');
 
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full pt-20 pb-10 bg-white">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-10">
