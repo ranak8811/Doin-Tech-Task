@@ -1,6 +1,7 @@
-import { Navbar } from "./components/navbar/Navbar";
-import { HeroBanner } from "./components/hero/HeroBanner";
-import { PartnerLogos } from "./components/partners/PartnerLogos";
+import { Navbar } from './components/navbar/Navbar';
+import { HeroBanner } from './components/hero/HeroBanner';
+import { PartnerLogos } from './components/partners/PartnerLogos';
+import { DiscoverCourses } from './components/courses/DiscoverCourses';
 
 export function App() {
   return (
@@ -10,9 +11,8 @@ export function App() {
         <HeroBanner />
       </div>
 
-      <section className="h-[200px]">
-        <PartnerLogos />
-      </section>
+      <PartnerLogos />
+      <DiscoverCourses />
     </div>
   );
 }
