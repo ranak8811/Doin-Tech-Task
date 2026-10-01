@@ -1,17 +1,17 @@
-import { Search, Star } from 'lucide-react';
+import { Search, Star } from "lucide-react";
 
-import maleImage from '../../assets/hero/male-image.png';
-import ellipseImg from '../../assets/hero/elipse.png';
-import leftScribble from '../../assets/hero/left_sribble.png';
-import rightTrapezium from '../../assets/hero/right-trapigium.png';
-import whiteDonut from '../../assets/hero/white-donut.png';
-import whiteTriangle from '../../assets/hero/white-traingle.png';
-import whiteSmallScribble from '../../assets/hero/white-small-scribble.png';
-import whiteBigScribble from '../../assets/hero/white-big-scribble.png';
+import maleImage from "../../assets/hero/male-image.png";
+import ellipseImg from "../../assets/hero/elipse.png";
+import leftScribble from "../../assets/hero/left_sribble.png";
+import rightTrapezium from "../../assets/hero/right-trapigium.png";
+import whiteDonut from "../../assets/hero/white-donut.png";
+import whiteTriangle from "../../assets/hero/white-traingle.png";
+import whiteSmallScribble from "../../assets/hero/white-small-scribble.png";
+import whiteBigScribble from "../../assets/hero/white-big-scribble.png";
 
-import avatar1 from '../../assets/little-circle-humans/Ellipse.png';
-import avatar2 from '../../assets/little-circle-humans/Ellipse-1.png';
-import avatar3 from '../../assets/little-circle-humans/Ellipse-2.png';
+import avatar1 from "../../assets/little-circle-humans/Ellipse.png";
+import avatar2 from "../../assets/little-circle-humans/Ellipse-1.png";
+import avatar3 from "../../assets/little-circle-humans/Ellipse-2.png";
 
 export const HeroBanner = () => {
   return (
@@ -24,7 +24,8 @@ export const HeroBanner = () => {
         </h1>
 
         <p className="mt-4 text-sm sm:text-base text-white/90 max-w-xl mx-auto font-normal leading-relaxed">
-          Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
+          Unlock your creativity, gain valuable knowledge, and grow your
+          business with our wide range of courses.
         </p>
 
         <div className="mt-7 max-w-[560px] mx-auto">
@@ -48,7 +49,7 @@ export const HeroBanner = () => {
         </div>
       </div>
 
-      <div className="relative w-full max-w-[1400px] mx-auto min-h-[500px] sm:min-h-[560px] md:min-h-[620px] lg:min-h-[680px] flex items-end justify-center -mt-24">
+      <div className="relative w-full mx-auto min-h-[500px] sm:min-h-[560px] md:min-h-[620px] lg:min-h-[680px] flex items-end justify-center -mt-24">
         <img
           src={leftScribble}
           alt=""
