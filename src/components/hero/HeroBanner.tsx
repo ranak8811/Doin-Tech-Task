@@ -93,7 +93,7 @@ export const HeroBanner = () => {
           className="relative z-10 w-[290px] sm:w-[370px] md:w-[450px] lg:w-[520px] object-contain block select-none pointer-events-none"
         />
 
-        <div className="absolute left-4 sm:left-12 md:left-24 lg:left-36 top-24 sm:top-28 md:top-36 z-30 bg-white rounded-2xl px-5 py-3.5 shadow-xl border border-gray-100/60">
+        <div className="absolute left-4 sm:left-8 md:left-auto md:right-[calc(50%+90px)] lg:right-[calc(50%+120px)] top-40 sm:top-48 md:top-64 lg:top-72 z-30 bg-white rounded-2xl px-5 py-3.5 shadow-xl border border-gray-100/60 whitespace-nowrap">
           <p className="text-xs sm:text-sm font-bold text-gray-900 leading-tight">
             UI/UX Design
           </p>
@@ -102,7 +102,7 @@ export const HeroBanner = () => {
           </p>
         </div>
 
-        <div className="absolute right-4 sm:right-12 md:right-24 lg:right-36 top-28 sm:top-32 md:top-40 z-30 bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-gray-100/60 min-w-[150px] sm:min-w-[190px]">
+        <div className="absolute right-4 sm:right-8 md:right-auto md:left-[calc(50%+90px)] lg:left-[calc(50%+120px)] top-44 sm:top-52 md:top-68 lg:top-76 z-30 bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-gray-100/60 min-w-[150px] sm:min-w-[190px]">
           <p className="text-[11px] sm:text-xs text-gray-500 font-medium">
             Learning Progress
           </p>
@@ -114,7 +114,7 @@ export const HeroBanner = () => {
           </div>
         </div>
 
-        <div className="absolute left-6 sm:left-16 md:left-28 lg:left-40 bottom-16 sm:bottom-20 md:bottom-24 z-30 bg-white rounded-2xl p-3.5 sm:p-4 shadow-xl border border-gray-100/60 min-w-[210px] sm:min-w-[240px]">
+        <div className="absolute left-4 sm:left-8 md:left-auto md:right-[calc(50%+130px)] lg:right-[calc(50%+170px)] bottom-16 sm:bottom-20 md:bottom-24 z-30 bg-white rounded-2xl p-3.5 sm:p-4 shadow-xl border border-gray-100/60 min-w-[210px] sm:min-w-[240px]">
           <div className="flex items-center justify-between gap-3">
             <span className="text-xs sm:text-sm font-bold text-gray-900">
               Happy Students
